@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: hsl(233, 47%, 7%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.flexbox {
+  width: 540px;
+  height: 446px;
+}
+.flexbox-1 {
+  background: hsl(244, 38%, 16%);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.content-margin {
+  margin: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+h3 span {
+  color: hsl(277, 64%, 61%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 4rem;
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.inner-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.data_info {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.data_info p {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+}
+.flexbox-2 {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background: url(./images/image-header-desktop.jpg);
+  overflow: hidden;
+  background-color: hsl(278, 39%, 36%);
+  background-blend-mode: soft-light;
+}
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(277, 64%, 61%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    margin: 4rem;
+  }
+  .flexbox-1 {
+    border-bottom-right-radius: 5px;
+    width: 450px;
+  }
+  .flexbox-2 {
+    background: url(./images/image-header-mobile.jpg);
+    overflow: hidden;
+    background-color: hsl(278, 39%, 36%);
+    background-blend-mode: soft-light;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0;
+    width: 450px;
+  }
+}
