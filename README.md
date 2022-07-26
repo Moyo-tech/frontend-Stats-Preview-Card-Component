@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-stats-component-using-flexbox-yz7lWwiPC2)
+- [Live Site URL](https://62dfdb3c4e90720d14961f93--cool-kitten-2a7f46.netlify.app/)
 
 ### Built with
 
@@ -36,6 +36,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [Moyosore Weke](https://www.linkedin.com/in/moyosore-weke-4707441b3/)
+- Twitter - [@_moyoweke](https://twitter.com/_moyoweke)
