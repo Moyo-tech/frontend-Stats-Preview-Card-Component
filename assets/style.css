@@ -69,12 +69,12 @@ p {
 }
 /* Footer */
 .attribution {
-  font-size: 13px;
+  font-size: 11px;
   text-align: center;
   color: #fff;
-  text-decoration: none;
 }
 .attribution a {
+  text-decoration: none;
   color: hsl(277, 64%, 61%);
 }
 
